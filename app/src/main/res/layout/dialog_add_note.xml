@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <!-- Note Title Input -->
+    <EditText
+        android:id="@+id/etNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter title"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Note Content Input -->
+    <EditText
+        android:id="@+id/etNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter content"
+        android:textSize="14sp"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:gravity="top"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSaveNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

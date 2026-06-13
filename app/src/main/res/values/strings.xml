@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- === APP NAME === -->
+    <string name="app_name">WorkoutAppFull</string>
+
+    <!-- === SPLASH SCREEN STRINGS (SplashActivity) === -->
+    <string name="splash_tagline">Get fit. Stay consistent.</string>
+    <string name="splash_footer">© 2025 Workout Plans</string>
+
+    <!-- === LOGIN ACTIVITY STRINGS (LoginActivity) === -->
+    <string name="login_title">WORKOUT LOGIN</string>
+    <string name="username_hint">Username:user</string>
+    <string name="password_hint">Password:password</string>
+    <string name="login_button">LOG IN</string>
+    <string name="forgot_password_link">Forgot Password?</string>
+    <string name="register_link">New User? Register Here</string>
+
+    <!-- Autofill hints -->
+    <string name="autofill_username">username</string>
+    <string name="autofill_password">password</string>
+    <string name="autofill_email">email</string>
+    <string name="autofill_name">name</string>
+
+    <!-- === REGISTRATION ACTIVITY STRINGS (RegistrationActivity) === -->
+    <string name="register_title">CREATE NEW ACCOUNT</string>
+    <string name="name_hint">Full Name</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="register_button">REGISTER</string>
+    <string name="go_to_login_link">Already have an account? Log In</string>
+
+    <!-- === FORGOT PASSWORD STRINGS (ForgotPasswordActivity) === -->
+    <string name="forgot_password_page_title">PASSWORD RECOVERY</string>
+    <string name="forgot_email_hint">Enter your Registered Email</string>
+    <string name="reset_button">SEND RESET LINK</string>
+
+    <!-- === RESET PASSWORD STRINGS (ResetPasswordActivity) === -->
+    <string name="reset_password_title">RESET PASSWORD</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_confirm_new_password">Confirm New Password</string>
+    <string name="button_reset_password">RESET PASSWORD</string>
+
+    <!-- === LANDING ACTIVITY STRINGS (LandingActivity) === -->
+    <string name="landing_title">7-MINUTE WORKOUT CHALLENGE</string>
+    <string name="landing_instructions">Ready to get started? Your plan is waiting!</string>
+    <string name="start_workout_button">START WORKOUT</string>
+    <string name="view_exercises_button">VIEW EXERCISES</string>
+    <string name="btn_api_data">API Data / Offline</string>
+    <string name="btn_notes">Notes / Quiz</string>
+    <string name="logout_button">LOGOUT</string>
+    <string name="welcome_prefix">Welcome</string>
+    <string name="welcome_with_name">Welcome, %1$s</string>
+
+    <!-- === WORKOUT TIMER STRINGS (WorkoutTimerActivity) === -->
+    <string name="exercise_progress">Exercise %1$d / %2$d</string>
+    <string name="get_ready_text">GET READY FOR</string>
+    <string name="start_button_text">START</string>
+    <string name="pause_button_text">PAUSE</string>
+    <string name="resume_button_text">RESUME</string>
+    <string name="work_phase_text">WORK</string>
+    <string name="rest_phase_text">REST</string>
+    <string name="workout_finished">Workout Finished!</string>
+    <string name="current_exercise_label">CURRENT EXERCISE:</string>
+    <string name="next_exercise_label">NEXT UP:</string>
+    <string name="finish_text">DONE!</string>
+    <string name="skip_text">SKIP</string>
+    <string name="keep_going_text">Keep going, you\'re doing great!</string>
+    <string name="timer_seconds">%1$d seconds</string>
+
+    <!-- === ADDED: Strings for XML layout preview (tools:text) === -->
+    <string name="default_exercise_name">Next Exercise Name</string>
+    <string name="default_timer_text">30s</string>
+    <string name="exercise_progress_default">Exercise 1 / 12</string>
+</resources>
+
+
+
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Phase label (GET READY / WORK / REST) -->
+    <TextView
+        android:id="@+id/tvPhase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/get_ready_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Current exercise name (set at runtime in Java). tools:text only for preview -->
+    <TextView
+        android:id="@+id/tvExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text=""
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="@string/default_exercise_name" />
+
+    <!-- Countdown timer (value set at runtime). tools:text only for preview -->
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text=""
+        android:textSize="48sp"
+        android:textStyle="bold"
+        tools:text="@string/default_timer_text" />
+
+    <!-- Next exercise label (prefix). -->
+    <TextView
+        android:id="@+id/tvNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/next_exercise_label" />
+
+    <!-- Start / Pause button: label will be set in Java. The text is changed to match the correct string resource name. -->
+    <Button
+        android:id="@+id/btnStartPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/pause_button_text"
+        android:textColor="@android:color/white" />
+
+    <!-- Skip button -->
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/skip_text" />
+
+    <!-- Progress (Exercise X / Y) - filled by Java. tools:text only for preview -->
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        tools:text="@string/exercise_progress_default" />
+
+</LinearLayout>
+
+

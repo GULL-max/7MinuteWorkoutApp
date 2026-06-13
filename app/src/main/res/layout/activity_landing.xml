@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_prefix"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvLandingInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/landing_instructions"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnStartWorkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_workout_button"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnApiData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="API Data / Offline"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notes / Quiz"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout_button"
+            android:backgroundTint="#D32F2F"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
+

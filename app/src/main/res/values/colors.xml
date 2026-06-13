@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary theme color -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Darker variant of primary (for btnApiData background) -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Accent color (for btnNotes background) -->
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Optional: white -->
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    tools:context=".RegistrationActivity">
+
+    <!-- Title uses string resource -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/register_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Input: Full Name (uses string resource + no autofill hint needed for 'name' but we add common hint) -->
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName"
+        android:autofillHints="name"
+        android:background="@drawable/rounded_edittext"/>
+
+    <!-- Input: Username -->
+    <EditText
+        android:id="@+id/et_username_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:hint="@string/username_hint"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:background="@drawable/rounded_edittext"/>
+
+    <!-- Input: Password -->
+    <EditText
+        android:id="@+id/et_password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:background="@drawable/rounded_edittext"/>
+
+    <!-- Input: Confirm Password -->
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:hint="@string/confirm_password_hint"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:background="@drawable/rounded_edittext"/>
+
+    <!-- Button: Register -->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Link: Go to Login -->
+    <TextView
+        android:id="@+id/tv_go_to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_login_link"
+        android:textColor="@android:color/holo_blue_dark"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"/>
+
+</LinearLayout>
