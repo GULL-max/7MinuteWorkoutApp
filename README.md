@@ -28,3 +28,17 @@ This application is designed to provide a simple and efficient 7-minute workout 
 
 ## 👨‍💻 Developer
 GULL-max
+
+## 📸 Screenshots
+
+### Home Screen
+![Home](screenshots/home.jpeg)
+
+### Login Screen
+![Login](screenshots/login.jpeg)
+
+### Notes Feature
+![Notes](screenshots/notes.jpeg)
+
+### Workout Screen
+![Workout](screenshots/workout.jpeg)
